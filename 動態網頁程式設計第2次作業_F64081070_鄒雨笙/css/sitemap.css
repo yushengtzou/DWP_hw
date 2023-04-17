@@ -1,0 +1,44 @@
+/*
+F64081070 鄒雨笙 第2次作業 4/13
+F64081070 Yu Sheng Tzou The Second Homework 4/13
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/*移除超連結的下底線*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    /* color: darkgrey; */
+}

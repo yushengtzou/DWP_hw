@@ -1,0 +1,28 @@
+/*
+F64081070 鄒雨笙 第2次作業 4/13
+F64081070 Yu Sheng Tzou The Second Homework 4/13
+*/
+
+body {
+    margin: 0;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: space-around; 
+    list-style: none; 
+    background-color: rgb(30, 30, 30); 
+    margin: 0; 
+    padding: 0;
+}
+
+
+nav a {
+    display: block;
+    padding: 10px; 
+    text-decoration: none; 
+    color: inherit; 
+    font-size: 1.2rem; 
+    color: rgb(255, 255, 255); 
+}
+
