@@ -1,0 +1,11 @@
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\bin\Debug\Books.mdf
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\bin\Debug\Books_log.ldf
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\bin\Debug\DisplayTable.exe
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\bin\Debug\DisplayTable.pdb
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\obj\x86\Debug\DisplayTable.DisplayAuthorsTable.resources
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\obj\x86\Debug\DisplayTable.Properties.Resources.resources
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\obj\x86\Debug\DisplayTable.exe
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayTable\DisplayTable\obj\x86\Debug\DisplayTable.pdb

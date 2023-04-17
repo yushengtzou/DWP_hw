@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="WelcomeRESTXMLService" 
+   CodeBehind="~/App_Code/WelcomeRESTXMLService.vb" %>

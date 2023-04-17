@@ -1,0 +1,11 @@
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\bin\Debug\Books.mdf
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\bin\Debug\Books_log.ldf
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\bin\Debug\DisplayQueryResult.exe
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\bin\Debug\DisplayQueryResult.pdb
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\obj\x86\Debug\DisplayQueryResult.Properties.Resources.resources
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\obj\x86\Debug\DisplayQueryResult.TitleQueries.resources
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\obj\x86\Debug\DisplayQueryResult.exe
+C:\books\2010\vcsharp2010htp\examples\ch18\DisplayQueryResult\DisplayQueryResult\obj\x86\Debug\DisplayQueryResult.pdb

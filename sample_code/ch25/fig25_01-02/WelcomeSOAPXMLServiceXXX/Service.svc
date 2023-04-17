@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" 
+   Service="WelcomeSOAPXMLService" 
+   CodeBehind="~/App_Code/WelcomeSOAPXMLService.vb" %>

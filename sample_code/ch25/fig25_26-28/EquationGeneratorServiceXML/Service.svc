@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="EquationGeneratorService" CodeBehind="~/App_Code/EquationGeneratorService
+.vb" %>

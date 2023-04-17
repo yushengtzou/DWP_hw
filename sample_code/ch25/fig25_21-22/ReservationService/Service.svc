@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="ReservationService" 
+   CodeBehind="~/App_Code/ReservationService.vb" %>

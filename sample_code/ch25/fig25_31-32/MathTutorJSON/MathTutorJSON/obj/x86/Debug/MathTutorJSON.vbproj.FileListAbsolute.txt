@@ -1,0 +1,11 @@
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\bin\Debug\MathTutorJSON.exe
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\bin\Debug\MathTutorJSON.pdb
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\bin\Debug\MathTutorJSON.xml
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\MathTutorJSON.MathTutorForm.resources
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\MathTutorJSON.Resources.resources
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\MathTutorJSON.exe
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\MathTutorJSON.xml
+C:\books\2010\VB2010HTP\examples\ch23\fig23_31-32\MathTutorJSON\MathTutorJSON\obj\x86\Debug\MathTutorJSON.pdb
