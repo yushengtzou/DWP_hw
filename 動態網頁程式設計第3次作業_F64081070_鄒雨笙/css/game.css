@@ -1,0 +1,84 @@
+
+.colored-box-upper {
+  background-color: #11354f; /* Dark blue color */
+  position: absolute; /* Or 'fixed', if you want the box to stay in the corner when scrolling */
+  bottom: -3px; /* Position the box at the bottom */
+  left: 9px; /* Position the box to the left */
+  width: 266px; /* Adjust based on your preference */
+  height: 54px; /* Adjust based on your preference */
+  z-index: 6; /* Ensures the box appears above the background but below other elements, like the button */
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px black;
+}
+
+#bank {
+    color: white;
+    font-size: 24px;
+    margin-left: 21px;
+    margin-top: 9px;
+}
+
+#money {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute; /* Or 'fixed', if you want the box to stay in the corner when scrolling */
+    bottom: 5px; /* Position the box at the bottom */
+    left: 108px; /* Position the box to the left */
+    z-index: 100;
+}
+
+#stand {
+  display: block;
+  position: absolute;
+  left: 180px; /* Adjust this value to move the button closer or farther from the left edge */
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 12%; /* Adjust the percentage to enlarge or shrink the image */
+  border-radius: 3px;
+  box-shadow: 0px 0px 9px;
+  z-index: 15;
+}
+
+#stand:hover {
+  filter: brightness(80%); /* Decrease the brightness when hovering */
+}
+
+#hit {
+  display: block;
+  position: absolute;
+  right: 180px; /* Adjust this value to move the button closer or farther from the right edge */
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 12%; /* Adjust the percentage to enlarge or shrink the image */
+  border-radius: 3px;
+  box-shadow: 0px 0px 9px;
+  z-index: 15;
+}
+
+#hit:hover {
+  filter: brightness(80%); /* Decrease the brightness when hovering */
+}
+
+
+#dealer {
+  display: block;
+  position: absolute;
+  right: 180px; /* Adjust this value to move the button closer or farther from the right edge */
+  top: 120px;
+  width: 8%; /* Adjust the percentage to enlarge or shrink the image */
+  z-index: 15;
+}
+
+#player {
+  display: block;
+  position: absolute;
+  right: 180px; /* Adjust this value to move the button closer or farther from the right edge */
+  bottom: 120px;
+  width: 8%; /* Adjust the percentage to enlarge or shrink the image */
+  z-index: 15;
+}

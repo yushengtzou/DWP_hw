@@ -1,0 +1,40 @@
+<!--
+F64081070 鄒雨笙 第3次作業 5/2
+F64081070 Yu Sheng Tzou The Third Homework 5/2
+-->
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackjack</title>
+    <link rel = "stylesheet" type = "text/css" href= "../css/index.css">
+    <link rel = "stylesheet" type = "text/css" href= "../css/chip_deal.css">
+    <link rel = "stylesheet" type = "text/javascript" href= "../js/chip_deal.js">
+</head>
+
+<body>
+    <!-- bank用來顯示銀行能給你多少的籌碼，預設是1000元 -->
+    <div class="colored-box-upper"><p id="bank">Bank: </p></div>
+    <!-- colored-box-lower用來存放籌碼 -->
+    <div class="colored-box-lower">
+        <img class="chip" id="chip1" src="../image/UI/chip/1.png" alt="chip1">
+        <img class="chip" id="chip5" src="../image/UI/chip/5.png" alt="chip5">
+        <img class="chip" id="chip25" src="../image/UI/chip/25.png" alt="chip25">
+        <img class="chip" id="chip50" src="../image/UI/chip/50.png" alt="chip50">
+        <img class="chip" id="chip100" src="../image/UI/chip/100.png" alt="chip100">
+        <img class="chip" id="chip500" src="../image/UI/chip/500.png" alt="chip500">
+        <img class="chip" id="chip1000" src="../image/UI/chip/1000.png" alt="chip1000">
+    </div>
+
+    <div class="colored-box-middle">
+        <img class="all-in" id="all_in" src="../image/UI/btn/all_in.png" alt="all-in" style="cursor:pointer;"></a>
+    </div>
+
+    <div class="colored-box-erase"></div>
+
+    <a href="../html/game.html"><img id="deal" src="../image/UI/btn/deal.png" alt="deal"></a>
+
+    <script src="../js/chip_deal.js"></script>
+</body>
+</html>

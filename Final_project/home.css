@@ -1,0 +1,166 @@
+/*
+F64081070 鄒雨笙 第2次作業 4/13
+F64081070 Yu Sheng Tzou The Second Homework 4/13
+*/
+
+body {
+    margin: 0
+}
+
+/*首頁大圖*/
+#banner {
+    text-align: center;
+    margin: 0;
+}
+
+
+/*移除超連結的下底線*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    color: darkgrey;
+}
+
+/*公布欄*/
+.Sec1 {
+    display: flex; 
+    width: 100%; 
+    height: 100%; 
+    justify-content: space-between;
+}
+
+#annou1 {
+    width: 50%; 
+    height: 630px;
+}
+
+#annou2 {
+    margin-left: 120px;
+}
+
+
+/*學生活動*/
+#stu1 {
+    width: 50%; 
+    height: 630px;
+}
+
+#cover 
+{
+    position: relative;
+    margin: 0 auto;	
+}
+#cover img 
+{
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1.6s ease-in-out;
+    transition: opacity 1.6s ease-in-out;
+}
+#cover img.top:hover 
+{ opacity:0; }
+
+/*學術演講與研討會*/
+.Sec2 {
+    display: flex; 
+    width: 100%; 
+    height: 100%; 
+    justify-content: space-between;
+}
+
+#acad1 {
+    width: 50%; 
+    height: 600px;
+}
+
+#acad2 {
+    margin-left: 120px;
+}
+
+
+/*獎項與榮譽*/
+#award1 {
+    width: 50%; 
+    height: 600px;  
+}
+
+#award2 {
+    margin-left: 120px; 
+    margin-right: 120px;
+}
+
+
+/*實習與徵才*/
+.Sec3 {
+        display: flex;
+        width: 100%; 
+        height: 100%; 
+        justify-content: space-between;
+}
+
+#recruit1 {
+        width: 50%; 
+        height: 600px;
+}
+
+#recruit2 {
+        margin-left: 120px;
+}
+
+
+/*願景*/
+#vi1 {
+    width: 50%; 
+    height: 600px;
+}
+    
+#vi2 {
+    margin-left: 120px;
+} 
+
+/*最新發表*/
+H4 {
+    padding-left: 10px;
+}
+
+#margin {
+    margin: 0;
+}
+
+#Pulb {
+    margin-bottom: 15px; 
+    padding-left: 120px;
+}
+
+.section {
+    width: 100%; 
+    height: 420px; 
+}
+
+ .flexbox 
+ {
+    display: flex; 
+    justify-content: center;
+ }
+
+ .flexbox > div 
+ {
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+    -webkit-border-radius: 10px;
+    width: 20%; 
+    height: 300px;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 7px;
+    box-shadow: 9px 9px 9px dimgrey;
+ }
+
+ .flexbox > div:hover { 
+    width: 266px; color: red; font-weight: bold; }
+
+
+
