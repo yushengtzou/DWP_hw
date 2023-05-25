@@ -31,7 +31,7 @@
 #stand {
   display: block;
   position: absolute;
-  left: 180px; /* Adjust this value to move the button closer or farther from the left edge */
+  right: 180px; /* Adjust this value to move the button closer or farther from the right edge */
   top: 0;
   bottom: 0;
   margin-top: auto;
@@ -49,7 +49,7 @@
 #hit {
   display: block;
   position: absolute;
-  right: 180px; /* Adjust this value to move the button closer or farther from the right edge */
+  left: 180px; /* Adjust this value to move the button closer or farther from the left edge */
   top: 0;
   bottom: 0;
   margin-top: auto;
@@ -81,4 +81,103 @@
   bottom: 120px;
   width: 8%; /* Adjust the percentage to enlarge or shrink the image */
   z-index: 15;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#dealerCards {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+#playerCards {
+    display: flex;
+    gap: 10px;
+}
+
+
+#dealerTotal {
+    color: white;
+    font-size: 36px;
+    display: block;
+    position: absolute;
+    right: 300px; /* Adjust this value to move the button closer or farther from the right edge */
+    top: 120px;
+    width: 8%; /* Adjust the percentage to enlarge or shrink the image */
+    z-index: 15;
+}
+
+#playerTotal {
+    color: white;
+    font-size: 36px;
+    display: block;
+    position: absolute;
+    right: 300px; /* Adjust this value to move the button closer or farther from the right edge */
+    bottom: 130px;
+    width: 8%; /* Adjust the percentage to enlarge or shrink the image */
+    z-index: 15;
+
+}
+
+.card {
+    width: 150px; /* Adjust the width to resize the card images */
+    position: relative;
+}
+
+.cards-container {
+    display: flex;
+    gap: 10px;
+    position: relative; /* Add this line */
+}
+
+/* Overlap effect */
+.cards-container .card:not(:first-child) {
+    margin-left: -90px; /* Change from 'left' to 'margin-left' */
+}
+
+#bust {
+    position: absolute;
+    bottom: 100px;
+    left: 500px;
+    width: 21%; /* Adjust the percentage to enlarge or shrink the image */
+    z-index: 35;
+}
+
+#dealerWin {
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    width: 45%; /* Adjust the percentage to enlarge or shrink the image */
+    z-index: 35;
+}
+
+#playerWin {
+    position: absolute;
+    bottom: 60px;
+    left: 248px;
+    width: 45%; /* Adjust the percentage to enlarge or shrink the image */
+    z-index: 35;
+}
+
+#dealerBust {
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    width: 45%; /* Adjust the percentage to enlarge or shrink the image */
+    z-index: 35;
+}
+#push {
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    width: 45%; /* Adjust the percentage to enlarge or shrink the image */
+    z-index: 35;
 }

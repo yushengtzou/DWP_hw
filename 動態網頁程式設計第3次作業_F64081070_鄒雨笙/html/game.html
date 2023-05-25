@@ -24,6 +24,43 @@ F64081070 Yu Sheng Tzou The Third Homework 5/2
     <img id="dealer" src="../image/UI/btn/dealer.png" alt="dealer" >
     <img id="player" src="../image/UI/btn/player.png" alt="player" >
 
+    <!-- 以下用來呈現bust, dealerWin, playerWin -->
+    <div id="playerBust" style="display:none;">
+        <!-- The player's 'bust' image will be displayed here -->
+        <img id = "bust" src="../image/UI/bust.png" alt="Player Bust">
+    </div>
+
+    <div id="dealerWin" style="display:none;">
+        <!-- The dealer's 'win' image will be displayed here -->
+        <img id = "dealerWin" src="../image/UI/dealerWin.png" alt="Dealer Win">
+    </div>
+
+    <div id="playerWin" style="display:none;">
+        <img id = "playerWin" src="../image/UI/youWin.png" alt="Player win">
+    </div>
+
+    <div id="dealerBust" style="display:none;">
+        <img id = "dealerBust" src="../image/ui/bust.png" alt="bust">
+    </div>
+
+    <div id="push" style="display:none;">
+        <img id = "push" src="../image/UI/push.png" alt="push">
+    </div>
+
+    <div id="dealerCards" class="cards-container">
+        <!-- The dealer's poker cards will be displayed here -->
+    </div>
+    <div id="dealerTotal">
+        <span id="dealerTotalValue">0</span>
+    </div>
+
+    <div id="playerCards" class="cards-container">
+        <!-- The player's poker cards will be displayed here -->
+    </div>
+    <div id="playerTotal">
+        <span id="playerTotalValue">0</span>
+    </div>
+
     <script src="../js/chip_deal.js"></script>
     <script src="../js/game.js"></script>
 </body>

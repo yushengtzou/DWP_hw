@@ -1,0 +1,125 @@
+/*
+F64081070 鄒雨笙 第4次作業 5/17
+F64081070 Yu Sheng Tzou The Forth Homework 5/17
+*/
+
+.colored-box-upper {
+  background-color: #11354f; /* Dark blue color */
+  position: absolute; /* Or 'fixed', if you want the box to stay in the corner when scrolling */
+  bottom: 300px; /* Position the box at the bottom */
+  left: 9px; /* Position the box to the left */
+  width: 266px; /* Adjust based on your preference */
+  height: 96px; /* Adjust based on your preference */
+  z-index: 6; /* Ensures the box appears above the background but below other elements, like the button */
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px black;
+}
+.colored-box-lower {
+  background-color: #11354f; 
+  position: absolute; 
+  bottom: 0; 
+  left: 9px; 
+  width: 800px; 
+  height: 300px; 
+  z-index: 5; 
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px black;
+}
+.colored-box-middle {
+  background-color: #11354f; /* Dark blue color */
+  position: absolute; /* Or 'fixed', if you want the box to stay in the corner when scrolling */
+  bottom: 285px; /* Position the box at the bottom */
+  left: 9px; /* Position the box to the left */
+  width: 266px; /* Adjust based on your preference */
+  height: 70px; /* Adjust based on your preference */
+  z-index: 9; /* Ensures the box appears above the background but below other elements, like the button */
+  border-radius: 6px;
+}
+.colored-box-erase {
+  background-color: #11354f; 
+  position: absolute; 
+  bottom: 285px; 
+  left: 9px; 
+  width: 400px; 
+  height: 15px; 
+  z-index: 10; 
+  border-radius: 6px;
+}
+
+
+#bank {
+    color: white;
+    font-size: 24px;
+    margin-left: 21px;
+    margin-top: 9px;
+}
+
+.all-in {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  width: 42%; /* Adjust the percentage to enlarge or shrink the image */
+  border-radius: 3px;
+  box-shadow: 0px 0px 9px black;
+  z-index: 15; 
+}
+
+.all-in:hover {
+  filter: brightness(80%); /* Decrease the brightness when hovering */
+}
+
+/* 以下為點按籌碼以移動的程式碼 */
+.chip {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 12px;
+  cursor: pointer; /* Change the cursor to indicate the image is clickable */
+  transition: all 1s; /* Animate the changes (1 second duration) */
+  z-index: 20;
+}
+
+#money {
+    font-size: 30px; 
+    font-weight: bold;
+    color: white; 
+    position: absolute; /* Or 'fixed', if you want the box to stay in the corner when scrolling */
+    bottom: 350px; /* Position the box at the bottom */
+    left: 108px; /* Position the box to the left */
+    z-index: 100;
+}
+
+#chipToDeal {
+    font-size: 60px; 
+    font-weight: bold;
+    color: white; 
+    position: absolute; /* Or 'fixed', if you want the box to stay in the corner when scrolling */
+    bottom: 375px; /* Position the box at the bottom */
+    left: 639px; /* Position the box to the left */
+    z-index: 100;
+}
+
+#deal {
+  display: none;
+  margin-left: 860px;
+  margin-right: auto;
+  margin-top: 270px;
+  width: 12%; /* Adjust the percentage to enlarge or shrink the image */
+  border-radius: 3px;
+  box-shadow: 0px 0px 9px black;
+  z-index: 15;
+}
+
+#deal:hover {
+  filter: brightness(80%); /* Decrease the brightness when hovering */
+}
+
+.ad {
+    position: absolute;  /* This will take the image out of the normal flow, and allow you to position it anywhere in the page */
+    top: 0;   /* This will position the image at the top of the page */
+    left: 0;  /* This will position the image at the left of the page */
+    width: 150px;   /* You can change this to the width you want */
+    height: auto;  /* This will maintain the image's aspect ratio */
+}
+
