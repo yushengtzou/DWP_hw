@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | scRNA-seq Data Visualization Tool</title>
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to your JavaScript file -->
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="help.html">Help & Documentation</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Login</h1>
+            <p>Access your account:</p>
+        </section>
+
+        <section>
+            <form action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <input type="submit" value="Login">
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 scRNA-seq Data Visualization Tool</p>
+    </footer>
+</body>
+</html>
+

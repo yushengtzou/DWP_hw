@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account | scRNA-seq Data Visualization Tool</title>
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to your JavaScript file -->
+    <script src="account.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="account.html">My Account</a></li>
+                <li><a href="help.html">Help & Documentation</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>My Account</h1>
+            <p>View and update your account details:</p>
+        </section>
+
+        <section>
+            <form action="/update-account" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="user's current username" readonly>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="user's current email">
+
+                <label for="new-password">New Password (leave blank to keep current password):</label>
+                <input type="password" id="new-password" name="new-password">
+
+                <input type="submit" value="Update Account">
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 scRNA-seq Data Visualization Tool</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharing & Export | scRNA-seq Data Visualization Tool</title>
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to your JavaScript file -->
+    <script src="share.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Data Upload</a></li>
+                <li><a href="processing.html">Data Processing</a></li>
+                <li><a href="dashboard.html">Visualization Dashboard</a></li>
+                <li><a href="clustering.html">Clustering & Annotation</a></li>
+                <li><a href="markers.html">Marker Gene Detection</a></li>
+                <li><a href="share.html">Sharing & Export</a></li>
+                <li><a href="help.html">Help & Documentation</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Sharing & Export</h1>
+            <p>Share your visualizations and data, or export your data in a variety of formats:</p>
+        </section>
+
+        <section>
+            <div id="sharing-interface">
+                <!-- Interface for sharing data and visualizations -->
+                <form action="/share" method="post">
+                    <label for="share-link">Share Link:</label>
+                    <input type="text" id="share-link" name="share-link" placeholder="Generated link will appear here" readonly>
+
+                    <button type="button" onclick="generateShareLink()">Generate Share Link</button>
+                </form>
+            </div>
+
+            <div id="export-interface">
+                <!-- Interface for exporting data -->
+                <form action="/export" method="post">
+                    <label for="format">Export Format:</label>
+                    <select id="format" name="format">
+                        <option value="csv">CSV</option>
+                        <option value="json">JSON</option>
+                        <option value="excel">Excel</option>
+                    </select>
+
+                    <input type="submit" value="Export Data">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 scRNA-seq Data Visualization Tool</p>
+    </footer>
+</body>
+</html>
+

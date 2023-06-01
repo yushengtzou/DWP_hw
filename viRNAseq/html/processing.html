@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Processing | scRNA-seq Data Visualization Tool</title>
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Data Upload</a></li>
+                <li><a href="processing.html">Data Processing</a></li>
+                <li><a href="dashboard.html">Visualization Dashboard</a></li>
+                <li><a href="clustering.html">Clustering & Annotation</a></li>
+                <li><a href="markers.html">Marker Gene Detection</a></li>
+                <li><a href="share.html">Sharing & Export</a></li>
+                <li><a href="help.html">Help & Documentation</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Data Processing</h1>
+            <p>Please choose the preprocessing options for your uploaded dataset:</p>
+        </section>
+
+        <section>
+            <form action="/processing" method="post">
+                <label for="normalization">Normalization:</label>
+                <select id="normalization" name="normalization">
+                    <option value="none">None</option>
+                    <option value="min-max">Min-Max Normalization</option>
+                    <option value="z-score">Z-Score Normalization</option>
+                </select>
+
+                <label for="scaling">Scaling:</label>
+                <select id="scaling" name="scaling">
+                    <option value="none">None</option>
+                    <option value="standard">Standard Scaling</option>
+                </select>
+                
+                <input type="submit" value="Process Data">
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 scRNA-seq Data Visualization Tool</p>
+    </footer>
+</body>
+</html>
+

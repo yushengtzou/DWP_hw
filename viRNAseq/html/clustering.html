@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Clustering & Annotation | scRNA-seq Data Visualization Tool</title>
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to your JavaScript file -->
+    <script src="clustering.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Data Upload</a></li>
+                <li><a href="processing.html">Data Processing</a></li>
+                <li><a href="dashboard.html">Visualization Dashboard</a></li>
+                <li><a href="clustering.html">Cell Clustering & Annotation</a></li>
+                <li><a href="markers.html">Marker Gene Detection</a></li>
+                <li><a href="share.html">Sharing & Export</a></li>
+                <li><a href="help.html">Help & Documentation</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Cell Clustering & Annotation</h1>
+            <p>Select the clustering algorithm and parameters for your data, and annotate cell types:</p>
+        </section>
+
+        <section>
+            <form action="/clustering" method="post">
+                <label for="algorithm">Clustering Algorithm:</label>
+                <select id="algorithm" name="algorithm">
+                    <option value="kmeans">K-means</option>
+                    <option value="hierarchical">Hierarchical Clustering</option>
+                    <option value="dbscan">DBSCAN</option>
+                </select>
+
+                <label for="parameters">Parameters:</label>
+                <input type="text" id="parameters" name="parameters" placeholder="Enter parameters">
+
+                <input type="submit" value="Cluster Cells">
+            </form>
+        </section>
+
+        <section>
+            <div id="cluster-results">
+                <!-- Placeholder for clustering results visualization -->
+            </div>
+
+            <div id="annotation-interface">
+                <!-- Interface for annotating cell types -->
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 scRNA-seq Data Visualization Tool</p>
+    </footer>
+</body>
+</html>
+

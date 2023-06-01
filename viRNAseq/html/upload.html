@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Upload | scRNA-seq Data Visualization Tool</title>
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Data Upload</a></li>
+                <li><a href="processing.html">Data Processing</a></li>
+                <li><a href="dashboard.html">Visualization Dashboard</a></li>
+                <li><a href="clustering.html">Clustering & Annotation</a></li>
+                <li><a href="markers.html">Marker Gene Detection</a></li>
+                <li><a href="share.html">Sharing & Export</a></li>
+                <li><a href="help.html">Help & Documentation</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Data Upload</h1>
+            <p>Please upload your scRNA-seq dataset below. The acceptable formats are .csv and .tsv.</p>
+        </section>
+
+        <section>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="file-upload">Select file:</label>
+                <input type="file" id="file-upload" name="file-upload" accept=".csv,.tsv">
+                <input type="submit" value="Upload">
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 scRNA-seq Data Visualization Tool</p>
+    </footer>
+</body>
+</html>
+
